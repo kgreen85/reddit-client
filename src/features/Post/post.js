@@ -64,7 +64,7 @@ const Post = (props) => {
               <h3 className="post-title">{post.title}</h3>
 
               <div className="post-image-container">
-                <img src={post.url} className="post-image" />
+                <img src={post.url} className="post-image" alt="" />
               </div>
 
               <div className="post-details">
